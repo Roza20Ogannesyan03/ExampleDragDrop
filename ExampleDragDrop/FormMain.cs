@@ -30,7 +30,7 @@ namespace ExampleDragDrop
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (moveCard != null)
+            if (moveCard != null)  
             {
                 if (moveCard.Bounds.IntersectsWith(t1.Bounds))
                 {
